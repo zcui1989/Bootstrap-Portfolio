@@ -1,125 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href='assets\css\style.css'>
-    <style>
-    .pbox{
-        width:960px;
-        height: 480px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .pcol1{
-        width:200px;
-        height:200px;
-        position:relative;
-        top:20px;
-    }
-    .pcol2{
-        width:200px;
-        height:200px;
-        position:relative;
-        top:120px;
-    }
-    .pcol3{
-        width:200px;
-        height:200px;
-        position:relative;
-        top:20px;
-    }
-    .pcol4{
-        width:200px;
-        height:200px;
-        position:relative;
-        top:120px;
-    }
-    .tag1{
-        width:200px;
-        height:50px;
-        top:350px;
-        left: 273px;
-        position: absolute;
-        background-color:#7bbaba;
-    }
-    .tag2{
-        width:200px;
-        height:50px;
-        background-color:#7bbaba;
-        top:450px;
-        left: 526px;
-        position: absolute;
-    }
-    .tag3{
-        width:200px;
-        height:50px;
-        background-color:#7bbaba;
-        top:350px;
-        right: 557px;
-        position: absolute;
-    }
-    .tag4{
-        width:200px;
-        height:50px;
-        background-color:#7bbaba;
-        top:450px;
-        right: 304px;
-        position: absolute;
-    }
-    .more{
-        background:none;
-        border:none;
-        cursor:pointer;
-    }
-    </style>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-        <div class="container">
-                <div class="col1" style="width:12%;
-                background-color: #7bbaba;
-                padding:15px;
-                font-family: 'Times New Roman', Times, serif;
-                margin-top:20px;
-                position:absolute;
-                left:15%;">
-                    <h1 class="name">Zhen Cui</h1>
-                </div>
-                <div class="col2">           
-                    <a href="file:///C:/bootcampzc/day3/Basic-Portfolio/index.html"><button class="more">About</button></a>
-                    <p>|</p>
-                    <a href="C:\bootcampzc\day3\Basic-Portfolio\portfolio.html"><button class="more">Portfolio</button></a>
-                    <p>|</p>
-                    <a href="C:\bootcampzc\day3\Basic-Portfolio\contact.html"><button class="more">Contact</button></a>
-        
-                </div>
-            </div>
-            <div class="greybox" style="background-image: url(assets/images/cork-wallet.png)">
-                <div class="box">
-                    <div class="sbox">
-                    <h1 class="aboutme">Portfolio</h1>
-                    <hr style="background-color:#d4d6d6;
-                    border: 0 none;
-                    color: #d4d6d6;
-                    height:2px;">
-                    <div class="pbox">
-                        <div class="pcol1"><img style="width:200px; height:200px; border: lightgrey 1px solid;"src="assets/images/220px-Golde33443.jpg"></div>
-                        <div class="pcol2"><img style="width:200px; height:200px; border: lightgrey 1px solid;"src="assets\images\Cat03.jpg"></div>
-                        <div class="pcol3"><img style="width:200px; height:200px; border: lightgrey 1px solid;"src="assets\images\NQOVAYZ-_400x400.jpg"></div>
-                        <div class="pcol4"><img style="width:200px; height:200px; border: lightgrey 1px solid;"src="assets\images\joezminegrlz8.jpg" ></div>
-                        <div class="tag1"><h3 style="color: white; text-align: center; position: relative; top: 10px">Puppy</h3></div>
-                        <div class="tag2"><h3 style="color: white; text-align: center; position: relative; top: 10px">Kitten</h3></div>
-                        <div class="tag3"><h3 style="color: white; text-align: center; position: relative; top: 10px">Bunny</h3></div>
-                        <div class="tag4"><h3 style="color: white; text-align: center; position: relative; top: 10px">Piggy</h3></div>
-                    </div>   
-                </div>
-            </div>
-            <div class="greenbox"></div>
-            <div class="blackbox">
-            <h6 style="color: lightgrey">Copyright ©</h6>
-            </div>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
+
 </html>

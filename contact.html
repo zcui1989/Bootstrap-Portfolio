@@ -1,91 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="C:\bootcampzc\day3\Basic-Portfolio\assets\css\style.css">
-<style>
-.js{
-    width:956px;
-    height: 5%;
-    border:#cccdcf 1px solid;
-    position:absolute;
-    top:200px;
-}
-.ebox{
-    width:956px;
-    height: 5%;
-    border:#cccdcf 1px solid;
-    position:absolute;
-    top:270px;
-}
-.mbox{ 
-    width:956px;
-    height: 15%;
-    border:#cccdcf 1px solid;
-    position:absolute;
-    top:340px;
+<!doctype html>
+<html lang="en-us">
 
-}
-.more{
-        background:none;
-        border:none;
-        cursor:pointer;
-}
-</style>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
+
+  <header id="masthead">
     <div class="container">
-            <div class="col1" style="width:12%;
-            background-color: #7bbaba;
-            padding:15px;
-            font-family: 'Times New Roman', Times, serif;
-            margin-top:20px;
-            position:absolute;
-            left:15%;">
-                <h1 class="name">Zhen Cui</h1>
-            </div>
-            <div class="col2">           
-                <a href="file:///C:/bootcampzc/day3/Basic-Portfolio/index.html"><button class="more">About</button></a>
-                <p>|</p>
-                <a href="C:\bootcampzc\day3\Basic-Portfolio\portfolio.html"><button class="more">Portfolio</button></a>
-                <p>|</p>
-                <a href="C:\bootcampzc\day3\Basic-Portfolio\contact.html"><button class="more">Contact</button></a>
-            </div>
-        </div>
-        <div class="greybox" style="background-image: url(assets/images/cork-wallet.png)">
-            <div class="box">
-                <div class="sbox">
-                <h1 class="aboutme">Contact</h1>
-                <hr style="background-color:#d4d6d6;
-                border: 0 none;
-                color: #d4d6d6;
-                height:2px;">
-                <p style="position:absolute;top:180px;"><strong>Name</strong></p>
-                    <div class="js">
-                        <p style="position: absolute;top:8px; left: 10px;">John Smith</p>
-                    </div>
-                <p style="position:absolute; top:250px"><strong>Email</strong></p>
-                    <div class="ebox">
-                        <p style="position: absolute;top:8px; left: 10px;;">example@gmail.com</p>
-                    </div>
-                <p style="position:absolute; top:320px"><strong>Message</strong></p>
-                    <div class="mbox"></div>
-                <div class="submit" style="width:100px;
-                height: 5%;
-                border: grey 1px solid;
-                position:absolute;
-                top:450px; background-color: teal">
-                <p style="position: absolute;top:7px; left: 20px; color: white"><strong>Submit</strong></p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="greenbox"></div>
-        <div class="blackbox">
-        <h6 style="color: lightgrey">Copyright ©</h6>
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
